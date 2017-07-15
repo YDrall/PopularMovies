@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/fragment_detail_imageView_posterImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            />
+
+        <TextView
+            android:id="@+id/fragment_detail_textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/fragment_detail_textView_releaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/fragment_detail_textView_voteAverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/fragment_detail_textView_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            />
+        <ImageView
+            android:id="@+id/fragment_detail_imageView_previewVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

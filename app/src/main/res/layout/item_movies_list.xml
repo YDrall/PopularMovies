@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_movieList_parent"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cover"
+        android:background="@drawable/poster_gradient"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:background="#00222233"
+        android:id="@+id/title"
+        android:maxLines="1"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:ellipsize="marquee"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
