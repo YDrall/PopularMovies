@@ -32,6 +32,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Toast;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -106,7 +107,8 @@ public class HomeFragment extends BaseFragment implements HomeContract.View {
 
     @Override
     public void showErrorView(String error) {
-        Snackbar.make(moviesList,error,Snackbar.LENGTH_SHORT);
+        //Snackbar.make(moviesList,error,Snackbar.LENGTH_SHORT);
+        Toast.makeText(getContext(),error,Toast.LENGTH_SHORT).show();
     }
 
     @Override
